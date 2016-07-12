@@ -1,0 +1,90 @@
+﻿<Window x:Class="Demo_Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:m="clr-namespace:Demo_Calculator.Models"
+        xmlns:vm="clr-namespace:Demo_Calculator.ViewModels"
+        mc:Ignorable="d"  
+        Title="Calculator" Height="400" Width="300" Background="RoyalBlue" ResizeMode="NoResize"
+        WindowStartupLocation="Manual" 
+        Left="512" Top="165">
+
+    <Window.Resources>
+        <m:Calculator x:Key="myCalc"/>
+        <vm:CalculatorViewModel x:Key="myViewModel"/>
+    </Window.Resources>
+
+
+    <Grid x:Name="myGrid" Margin="0,0,0,0" Width="300" HorizontalAlignment="Center" DataContext="{Binding Source={StaticResource myViewModel}}" Focusable="True"
+          FocusManager.FocusedElement="{Binding ElementName=myGrid}">
+        <Border BorderThickness="2" HorizontalAlignment="Center" BorderBrush="Black" Margin="15,15,15,280">
+            <TextBlock x:Name="outPutBox" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="270" Height="72"  TextAlignment="Right" FontSize="48"
+                  Background="LightGray"
+                   Text="{Binding txtCurrValue}"/>
+        </Border>
+
+
+        <Button x:Name="clear" Content="Clear" HorizontalAlignment="Center" Margin="20,96,20,0" VerticalAlignment="Top" Width="260" Height="30"
+                Command="{Binding clearPressed}" CommandParameter="{Binding ElementName=myGrid}"/>
+
+        <Button x:Name="b1_Buttom" Content="1" Margin="20,250,235,0" VerticalAlignment="Top" Width="45" Height="45"
+                Command="{Binding numberPressed}" CommandParameter="{Binding ElementName=b1_Buttom}"/>
+
+        <Button x:Name="b2_Buttom" Content="2" Margin="85,250,170,0"  VerticalAlignment="Top" Width="45" Height="45"
+                Command="{Binding numberPressed}" CommandParameter="{Binding ElementName=b2_Buttom}"/>
+        <Button x:Name="b3_Buttom" Content="3" Margin="150,250,105,0" VerticalAlignment="Top" Width="45" Height="45"
+                    Command="{Binding numberPressed}" CommandParameter="{Binding ElementName=b3_Buttom}"/>
+        <Button x:Name="b4_Buttom" Content="4" Margin="20,200,235,0"  VerticalAlignment="Top" Width="45" Height="45" 
+                    Command="{Binding numberPressed}" CommandParameter="{Binding ElementName=b4_Buttom}"/>
+        <Button x:Name="b5_Buttom" Content="5" Margin="85,200,170,0"  VerticalAlignment="Top" Width="45" Height="45" 
+                    Command="{Binding numberPressed}" CommandParameter="{Binding ElementName=b5_Buttom}"/>
+        <Button x:Name="b6_Buttom" Content="6" Margin="150,200,105,0" VerticalAlignment="Top" Width="45" Height="45" 
+                    Command="{Binding numberPressed}" CommandParameter="{Binding ElementName=b6_Buttom}"/>
+        <Button x:Name="b7_Buttom" Content="7" Margin="20,150,235,0"  VerticalAlignment="Top" Width="45" Height="45"
+                    Command="{Binding numberPressed}" CommandParameter="{Binding ElementName=b7_Buttom}"/>
+        <Button x:Name="b8_Buttom" Content="8" Margin="85,150,170,0"  VerticalAlignment="Top" Width="45" Height="45" 
+                    Command="{Binding numberPressed}" CommandParameter="{Binding ElementName=b8_Buttom}"/>
+        <Button x:Name="b9_Buttom" Content="9" Margin="150,150,105,0" VerticalAlignment="Top" Width="45" Height="45" 
+                Command="{Binding numberPressed}" CommandParameter="{Binding ElementName=b9_Buttom}"/>
+
+        <Button x:Name="b0_Buttom" Content="0" Margin="20,300,170,0" VerticalAlignment="Top" Width="110" Height="45"
+                Command="{Binding numberPressed}" CommandParameter="{Binding ElementName=b0_Buttom}"/>
+        <Button x:Name="dot_Buttom" Content="." Margin="150,300,105,0" VerticalAlignment="Top" Width="45" Height="45"
+                Command="{Binding numberPressed}" CommandParameter="{Binding ElementName=dot_Buttom}"/>
+
+        <Button x:Name="Plus_Buttom" Content="+" Margin="215,150,15,0" VerticalAlignment="Top" Width="60" Height="30"
+                Command="{Binding operandPressed}" CommandParameter="{Binding ElementName=Plus_Buttom}"/>
+        <Button x:Name="Minus_Buttom" Content="-" Margin="215,188,15,0" VerticalAlignment="Top" Width="60" Height="30"
+                Command="{Binding operandPressed}" CommandParameter="{Binding ElementName=Minus_Buttom}"/>
+        <Button x:Name="Mult_Buttom" Content="*" Margin="215,226,15,0" VerticalAlignment="Top" Width="60" Height="30"
+                Command="{Binding operandPressed}" CommandParameter="{Binding ElementName=Mult_Buttom}"/>
+        <Button x:Name="Div_Buttom" Content="/" Margin="215,264,15,0" VerticalAlignment="Top" Width="60" Height="30"
+                Command="{Binding operandPressed}" CommandParameter="{Binding ElementName=Div_Buttom}"/>
+
+        <Button x:Name="Eq_Buttom" Content="=" Margin="215,300,15,0" VerticalAlignment="Top" Width="60" Height="45"
+                 Command="{Binding equalPressed}" CommandParameter="{Binding ElementName=myGrid}"/>
+        <Grid.InputBindings>
+            <KeyBinding x:Name="k0" Key="NumPad0" Command="{Binding numberPressed}" CommandParameter="{Binding ElementName=b0_Buttom}"/>
+            <KeyBinding x:Name="k1" Key="NumPad1" Command="{Binding numberPressed}" CommandParameter="{Binding ElementName=b1_Buttom}"/>
+            <KeyBinding x:Name="k2" Key="NumPad2" Command="{Binding numberPressed}" CommandParameter="{Binding ElementName=b2_Buttom}"/>
+            <KeyBinding x:Name="k3" Key="NumPad3" Command="{Binding numberPressed}" CommandParameter="{Binding ElementName=b3_Buttom}"/>
+            <KeyBinding x:Name="k4" Key="NumPad4" Command="{Binding numberPressed}" CommandParameter="{Binding ElementName=b4_Buttom}"/>
+            <KeyBinding x:Name="k5" Key="NumPad5" Command="{Binding numberPressed}" CommandParameter="{Binding ElementName=b5_Buttom}"/>
+            <KeyBinding x:Name="k6" Key="NumPad6" Command="{Binding numberPressed}" CommandParameter="{Binding ElementName=b6_Buttom}"/>
+            <KeyBinding x:Name="k7" Key="NumPad7" Command="{Binding numberPressed}" CommandParameter="{Binding ElementName=b7_Buttom}"/>
+            <KeyBinding x:Name="k8" Key="NumPad8" Command="{Binding numberPressed}" CommandParameter="{Binding ElementName=b8_Buttom}"/>
+            <KeyBinding x:Name="k9" Key="NumPad9" Command="{Binding numberPressed}" CommandParameter="{Binding ElementName=b9_Buttom}"/>
+            <KeyBinding x:Name="kdot" Key="Decimal" Command="{Binding numberPressed}" CommandParameter="{Binding ElementName=dot_Buttom}"/>
+
+            <KeyBinding x:Name="kplus" Key="Add" Command="{Binding operandPressed}" CommandParameter="{Binding ElementName=Plus_Buttom}"/>
+            <KeyBinding x:Name="kminus" Key="Subtract" Command="{Binding operandPressed}" CommandParameter="{Binding ElementName=Minus_Buttom}"/>
+            <KeyBinding x:Name="kmult" Key="Multiply" Command="{Binding operandPressed}" CommandParameter="{Binding ElementName=Mult_Buttom}"/>
+            <KeyBinding x:Name="kdiv" Key="Divide" Command="{Binding operandPressed}" CommandParameter="{Binding ElementName=Div_Buttom}"/>
+            
+
+            <KeyBinding x:Name="KEnter" Key="Return" Command="{Binding equalPressed}" CommandParameter="{Binding ElementName=myGrid}"/>
+            <KeyBinding x:Name="KClear" Key="Backspace" Command="{Binding clearPressed}" CommandParameter="{Binding ElementName=myGrid}"/>
+        </Grid.InputBindings>
+    </Grid>
+</Window>

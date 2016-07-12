@@ -1,0 +1,5 @@
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\AutomatedTesting1\bin\Debug\AutomatedTesting1.dll
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\AutomatedTesting1\bin\Debug\AutomatedTesting1.pdb
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\AutomatedTesting1\obj\Debug\AutomatedTesting1.csprojResolveAssemblyReference.cache
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\AutomatedTesting1\obj\Debug\AutomatedTesting1.dll
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\AutomatedTesting1\obj\Debug\AutomatedTesting1.pdb

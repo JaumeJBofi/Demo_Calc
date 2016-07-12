@@ -1,0 +1,7 @@
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\CalculatorViewModel\bin\Debug\CalculatorViewModel.dll
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\CalculatorViewModel\bin\Debug\CalculatorViewModel.pdb
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\CalculatorViewModel\bin\Debug\CalculatorModel.dll
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\CalculatorViewModel\bin\Debug\CalculatorModel.pdb
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\CalculatorViewModel\obj\Debug\CalculatorViewModel.csprojResolveAssemblyReference.cache
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\CalculatorViewModel\obj\Debug\CalculatorViewModel.dll
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\CalculatorViewModel\obj\Debug\CalculatorViewModel.pdb

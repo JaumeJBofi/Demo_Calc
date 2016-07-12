@@ -1,0 +1,15 @@
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\Demo_Calculator\bin\Debug\Demo_Calculator.exe.config
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\Demo_Calculator\bin\Debug\Demo_Calculator.exe
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\Demo_Calculator\bin\Debug\Demo_Calculator.pdb
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\Demo_Calculator\obj\Debug\Demo_Calculator.csprojResolveAssemblyReference.cache
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\Demo_Calculator\obj\Debug\MainWindow.g.cs
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\Demo_Calculator\obj\Debug\App.g.cs
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\Demo_Calculator\obj\Debug\Demo_Calculator_MarkupCompile.cache
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\Demo_Calculator\obj\Debug\Demo_Calculator_MarkupCompile.lref
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\Demo_Calculator\obj\Debug\MainWindow.baml
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\Demo_Calculator\obj\Debug\Demo_Calculator.g.resources
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\Demo_Calculator\obj\Debug\Demo_Calculator.Properties.Resources.resources
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\Demo_Calculator\obj\Debug\Demo_Calculator.csproj.GenerateResource.Cache
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\Demo_Calculator\obj\Debug\Demo_Calculator.exe
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\Demo_Calculator\obj\Debug\Demo_Calculator.pdb
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\Demo_Calculator\obj\Debug\GeneratedInternalTypeHelper.g.cs

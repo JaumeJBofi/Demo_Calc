@@ -1,0 +1,5 @@
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\CalculatorModel\bin\Debug\CalculatorModel.dll
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\CalculatorModel\bin\Debug\CalculatorModel.pdb
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\CalculatorModel\obj\Debug\CalculatorModel.csprojResolveAssemblyReference.cache
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\CalculatorModel\obj\Debug\CalculatorModel.dll
+C:\Users\Jauma\Desktop\AProgram\VisualStudio\CSharp\Demo_Calculator\CalculatorModel\obj\Debug\CalculatorModel.pdb
